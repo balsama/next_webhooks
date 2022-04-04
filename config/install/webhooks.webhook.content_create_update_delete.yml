@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: content_create_update_delete
+label: 'Content create/update/delete'
+payload_url: 'http://localhost:3000/next_webhooks/listener.php'
+type: outgoing
+events: 'a:3:{s:18:"entity:node:create";s:18:"entity:node:create";s:18:"entity:node:update";s:18:"entity:node:update";s:18:"entity:node:delete";s:18:"entity:node:delete";}'
+secret: webhooksecret
+content_type: application/json
+token: webhooktoken
+non_blocking: false

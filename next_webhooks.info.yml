@@ -1,0 +1,7 @@
+name: Next Webhooks
+type: module
+description: "Webhook dispatcher for Next.js frontend ISR."
+core_version_requirement: ^9
+package: Webhooks
+dependencies:
+  - webhooks

@@ -1,0 +1,10 @@
+{
+    "name": "drupal/next_webhooks",
+    "type": "drupal-module",
+    "description": "Webhook dispatcher for Next.js frontend ISR.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/webhooks": "*"
+    }
+}
+
